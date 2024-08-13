@@ -1,0 +1,420 @@
+@import url('https://fonts.cdnfonts.com/css/livvic');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.1s ease-in-out;
+    font-family: 'Livvic', sans-serif;
+}
+
+header {
+    background: #014E56;
+    padding: 53px 0 25px;
+}
+
+.container {
+    max-width: 80%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-right ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-right ul li {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-right ul li:hover {
+    color: #79C8C7;
+}
+
+.nav-right ul li:active {
+    color: #79C8C7;
+    transform: scale(0.9);
+    transition: 0.1s ease-in-out;
+}
+
+.nav-right button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    padding: 8px 32px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+}
+
+.nav-right button:hover {
+    background: white;
+    color: #012F34;
+}
+
+.nav-right button:active {
+    background: #012F34;
+    color: white;
+    transform: scale(0.9);
+    transition: 0.1s ease-in-out;
+}
+
+.menu {
+    display: none;
+}
+
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 0;
+    gap: 40px
+}
+
+.showcase h1 {
+    font-size: 64px;
+    color: white;
+}
+
+.showcase p {
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    max-width: 730px;
+}
+
+main {
+    background: #004047;
+    flex: 1;
+}
+
+.meet {
+    background: #004047;
+    padding: 71px 0 178px;
+}
+
+.meet .container h2 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: #012F34;
+    width: 32%;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    position: relative;
+}
+
+.card-bottom h3 {
+    font-size: 18px;
+    line-height: 28px;
+    color: #79C8C7;
+}
+
+.card-bottom i {
+    font-size: 15px;
+    color: white;
+    line-height: 25px;
+}
+
+.card-button {
+    width: 56px;
+    height: 56px;
+    background: #F67E7E;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 90%;
+    z-index: 99;
+}
+
+.card-button:hover {
+    background: #79C8C7;
+}
+
+.some {
+    background: #012F34;
+    padding: 113px 0 122px;
+}
+
+.some .container h2 {
+    font-size: 48px;
+    line-height: 48px;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.some-logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.some-logos img {
+    max-width: 150px;
+    width: auto;
+    height: auto;
+}
+
+.main-footer {
+    background: #F67E7E;
+    padding: 76px 0;
+}
+
+.main-footer div {
+    max-width: 70%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-footer p {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #012F34;
+}
+
+.main-footer div button {
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px 32px;
+    color: #012F34;
+    border: 2px solid #012F34;
+    border-radius: 100px;
+}
+
+.main-footer div button:hover {
+    background: #012F34;
+    color: white;
+}
+
+.main-footer div button:active {
+    background: #012F34;
+    color: white;
+    transform: scale(0.9);
+    transition: 0.1s ease-in-out;
+}
+
+footer {
+    background: #002529;
+    padding: 48px 0 24px;
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.contact h1 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.contact p {
+    font-size: 24px;
+    color: #79C8C7;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    padding-top: 50px;
+}
+
+input {
+    width: 100%; 
+    height: 50px; 
+    padding: 10px 5px; 
+    font-size: 18px; 
+    border: 1px solid #79C8C7; 
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: transparent;
+    color: white;
+}
+
+input[type="date"] {
+    color: #79C8C7; 
+}
+
+input::placeholder {
+    color: #79C8C7;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    background: transparent;
+    padding: 10px 5px;
+    font-size: 18px;
+    border: 1px solid #79C8C7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+}
+
+textarea::placeholder {
+    color: #79C8C7;
+}
+
+.contact .container button {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    padding: 8px 64px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 100px;
+    margin: 15px 0;
+}
+
+.contact .container button:hover {
+    background: white;
+    color: #012F34;
+}
+
+.contact .container button:active {
+    background: #012F34;
+    color: white;
+    transform: scale(0.9);
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (max-width:768px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    .showcase {
+        flex-direction: column;
+        row-gap: 24px;
+    }
+
+    .showcase p {
+        text-align: center;
+        max-width: 457px;
+        font-size: 15px;
+    }
+
+    .cards {
+        gap: 11px;
+        row-gap: 76px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 49%;
+    }
+
+    .meet .container h2 {
+        font-size: 32px;
+    }
+
+    .some .container h2 {
+        font-size: 32px;
+    }
+
+    .main-footer div p {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .nav-right {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .showcase p {
+        font-size: 40px;
+        max-width: 327px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .some-logos {
+        flex-direction: column;
+        align-items: center;
+        gap: 46px;
+    }
+
+    .main-footer div {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .main-footer div p {
+        text-align: center;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+    }
+}
